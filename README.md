@@ -1,6 +1,6 @@
 # Ethminer Inactivity Auto Start Service
 
-A simple script to wait inactivity and then launch ethminer.
+A simple script for waiting inactivity and then launch ethminer.
 
 ## Requirements
 
