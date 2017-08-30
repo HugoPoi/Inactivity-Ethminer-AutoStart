@@ -18,6 +18,7 @@ A simple script for waiting inactivity and then launch ethminer.
    sample is provided in `ethminer.service.d/override.conf`
 1. Reload config with `systemctl --user daemon-reload`
 1. Enable services `systemctl --user enable geth ethminer-auto-start`
+1. Configure your desktop environment ![Cinnamon ScreenSaver](https://user-images.githubusercontent.com/2299861/29873793-ec91ee82-8d94-11e7-9947-4f75a9b63fa6.png)
 
 ## How it works
 
