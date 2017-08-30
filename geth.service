@@ -1,0 +1,9 @@
+[Unit]
+Description=Ethereum go client
+
+[Service]
+ExecStart=/usr/bin/geth --rpc --rpccorsdomain localhost --verbosity 2
+
+[Install]
+WantedBy=default.target
+

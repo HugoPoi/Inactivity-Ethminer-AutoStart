@@ -1,0 +1,10 @@
+[Unit]
+Description=Watching DBus for ScreenSaver event and start/stop ethminer service
+
+[Service]
+Environment="UNIT_TO_START=ethminer"
+ExecStart=/bin/sh %h/.config/systemd/user/ethminer-auto-start.sh $UNIT_TO_START
+
+[Install]
+WantedBy=default.target
+

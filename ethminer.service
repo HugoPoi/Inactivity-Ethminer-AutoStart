@@ -1,0 +1,11 @@
+[Unit]
+Description=Etheminer instance for mining
+Requires=geth.service
+
+[Service]
+Environment="ETHMINER_OPTIONS=--cuda --farm-recheck 200"
+ExecStart=/usr/bin/ethminer $ETHMINER_OPTIONS -v 1
+
+[Install]
+WantedBy=default.target
+
